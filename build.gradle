@@ -2,7 +2,8 @@ group 'tech.tongyu'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-
+apply plugin: 'application'
+mainClassName = "tech.tongyu.examples.QuantServiceExample"
 sourceCompatibility = 1.8
 
 repositories {
